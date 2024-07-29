@@ -2,3 +2,4 @@ streamlit
 datetime
 joblib
 pandas
+sklearn
