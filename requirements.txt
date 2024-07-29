@@ -1,6 +1,6 @@
 streamlit
 datetime
-joblib==1.1.0
+joblib
 pandas
-scikit-learn==0.24.2
+scikit-learn
 cloudpickle
