@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor
 
-model = joblib.load(r'./models/GBR_KCHouseSalesMk1.pkl')
+model = joblib.load('models/GBR_KCHouseSalesMk1.pkl')
 
 #Initialising session state variables
 if 'predicted_value' not in st.session_state:
