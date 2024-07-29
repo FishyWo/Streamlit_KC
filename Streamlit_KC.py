@@ -3,7 +3,7 @@ import datetime
 import joblib
 import pandas as pd
 
-model = joblib.load('models/GBR_KCHouseSalesMk1')
+model = joblib.load('./models/GBR_KCHouseSalesMk1')
 
 #Initialising session state variables
 if 'predicted_value' not in st.session_state:
