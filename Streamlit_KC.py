@@ -133,4 +133,4 @@ with bathrooms_cont:
 
 with col3:
     st.write(st.session_state.predicted_value)
-    st.button(label='Predict', on_click=predictModel())
+    st.button(label='Predict', on_click=predictModel)
