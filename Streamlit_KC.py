@@ -2,7 +2,6 @@ import streamlit as st
 import datetime
 import joblib
 import pandas as pd
-from sklearn.ensemble import GradientBoostingRegressor
 
 model = joblib.load('./models/GBR_KCHouseSalesMk1.pkl')
 
