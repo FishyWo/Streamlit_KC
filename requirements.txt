@@ -1,6 +1,6 @@
 streamlit
 joblib == 1.1.1
 scikit-learn==1.2.1
-pandas
-numpy
+pandas == 1.5.3
+numpy == 1.23.5
 cloudpickle==2.2.1
